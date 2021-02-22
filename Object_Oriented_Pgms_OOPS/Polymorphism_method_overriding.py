@@ -27,9 +27,9 @@ Students.append(st)
 Students.append(st1)
 Students.append(st2)
 Students.append(st3)
-# for Student in Students:
-#     if Student.course=="mca":
-#         print(Student.name)
+for Student in Students:
+    if Student.course=="mca":
+        print(Student.name)
 
 marks=[]
 for Student in Students:
